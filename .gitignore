@@ -1,0 +1,29 @@
+# Build directories
+build/
+bin/
+out/
+cmake-build-*/
+
+# Compiled Executables and Object Files
+*.exe
+*.o
+*.obj
+*.out
+*.app
+
+# Temporary and Atomic Swap Files
+*.tmp
+*.bak
+*.swp
+
+# Runtime Generated Data Files (Keep seed data versioned in data/library_seed.csv)
+data/library_data.csv
+data/members.csv
+data/loans.csv
+data/test_*.csv
+data/roundtrip_*.csv
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.user
